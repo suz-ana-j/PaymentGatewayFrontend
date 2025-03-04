@@ -1,4 +1,5 @@
 import React from 'react';
+import CheckoutButton from './components/CheckoutButton';
 import './Pricing.css';
 
 const Pricing = () => {
@@ -18,37 +19,37 @@ const Pricing = () => {
             <div className="pricing-card">
                 <h2>Default</h2>
                 <p>Simple and professional.</p>
-                <a href="https://suzana4.gumroad.com/l/wozqla?variant=Default" className="buy-btn">Buy Now - $15</a>
+                <CheckoutButton product="Default" price={1500} />
             </div>
 
             <div className="pricing-card">
                 <h2>Rounded</h2>
                 <p>Soft and modern design.</p>
-                <a href="https://suzana4.gumroad.com/l/wozqla?variant=Rounded" className="buy-btn">Buy Now - $20</a>
+                <CheckoutButton product="Rounded" price={2000} />
             </div>
 
             <div className="pricing-card">
                 <h2>Gradient</h2>
                 <p>Premium look with a color gradient.</p>
-                <a href="https://suzana4.gumroad.com/l/wozqla?variant=Gradient" className="buy-btn">Buy Now - $25</a>
+                <CheckoutButton product="Gradient" price={2500} />
             </div>
 
             <div className="pricing-card">
                 <h2>Outline</h2>
                 <p>Minimalist transparent button.</p>
-                <a href="https://suzana4.gumroad.com/l/wozqla?variant=Outline" className="buy-btn">Buy Now - $18</a>
+                <CheckoutButton product="Outline" price={1800} />
             </div>
 
             <div className="pricing-card custom-option">
-                <h2>Custom Button</h2>
+                <h2>Custom</h2>
                 <p>Personalized design tailored to your needs.</p>
-                <a href="https://suzana4.gumroad.com/l/wozqla?variant=Custom" className="buy-btn">Buy Now - $35</a>
+                <CheckoutButton product="Custom" price={3500} />
             </div>
 
             <div className="pricing-card custom-option">
                 <h2>Advanced Customization</h2>
                 <p>Fully branded design with unique features.</p>
-                <a href="https://suzana4.gumroad.com/l/wozqla?variation=Advanced+Customization" className="buy-btn">Buy Now - $65</a>
+                <CheckoutButton product="Advanced Customization" price={6500} />
             </div>
         </div>
     );
