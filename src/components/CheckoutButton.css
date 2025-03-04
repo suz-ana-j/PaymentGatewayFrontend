@@ -1,0 +1,37 @@
+/* Default button */
+.checkout-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.checkout-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Rounded button */
+.rounded {
+    border-radius: 50px;
+    padding: 12px 24px;
+}
+
+/* Gradient button */
+.gradient {
+    background: linear-gradient(90deg, #ff7eb3, #ff758c);
+}
+
+/* Outline button */
+.outline {
+    background: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.outline:hover {
+    background: #007bff;
+    color: white;
+}
