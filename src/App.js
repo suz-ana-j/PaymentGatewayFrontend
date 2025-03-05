@@ -25,16 +25,16 @@ const Home = () => (
         <h1>Choose Your Payment Button Style</h1>
         
         <h2>Default:</h2>
-        <CheckoutButton product="Premium Feature" price={5000} styleType="default" />
+        <CheckoutButton product="Premium Feature" price={1500} styleType="default" />
 
         <h2>Rounded:</h2>
-        <CheckoutButton product="Premium Feature" price={5000} styleType="rounded" />
+        <CheckoutButton product="Premium Feature" price={2000} styleType="rounded" />
 
         <h2>Gradient:</h2>
-        <CheckoutButton product="Premium Feature" price={5000} styleType="gradient" />
+        <CheckoutButton product="Premium Feature" price={2500} styleType="gradient" />
 
         <h2>Outline:</h2>
-        <CheckoutButton product="Premium Feature" price={5000} styleType="outline" />
+        <CheckoutButton product="Premium Feature" price={1800} styleType="outline" />
     </div>
 );
 
